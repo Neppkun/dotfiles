@@ -1,0 +1,62 @@
+[bar/bar]
+
+font-0 = "Overpass Mono:pixelsize=10;2.25"
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+fixed-center = true
+
+width = 100%
+height = 30
+
+background = #446A1FAC
+
+radius = 0.0
+
+padding-left = 3
+padding-right = 3
+module-margin = 3
+
+modules-center = date
+modules-right = cpu memory
+modules-left = network
+
+[module/memory]
+type = internal/memory
+interval = 3
+format = <label>
+label = RAM %gb_used%/%gb_total%
+
+[module/arch-aur-updates]
+type = custom/script
+exec = checkupdates | wc -l
+interval = 1000
+label = Updates: %output%
+
+[module/network]
+type = internal/network
+interface = wlan0
+interval = 3.0
+accumulate-stats = true
+label-connected = "Net %downspeed:8%"
+format-connected = <label-connected>
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+format = <label>
+label = "CPU %percentage%%"
+label-padding = 1
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %A, %d %B %I:%M %p
+
+[module/title]
+type = internal/xwindow
+format-background = #eee
+format-foreground = #fc0202
+format-padding = 1
+label-maxlen = 50
