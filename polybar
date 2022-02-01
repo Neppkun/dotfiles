@@ -20,7 +20,7 @@ module-margin = 3
 
 modules-center = date
 modules-right = cpu memory
-modules-left = network
+modules-left = network arch-aut-updates
 
 [module/memory]
 type = internal/memory
