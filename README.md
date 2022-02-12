@@ -39,6 +39,16 @@ wget:
 
 `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 
+Theme dependencies:
+
+This theme requires you to have the "colors" plugin for oh-my-zsh, here's how to install:
+
+`git clone https://github.com/zpm-zsh/colors ~/.oh-my-zsh/custom/plugins/colors`
+
+`sudo nano ~/.zshrc`, search for "plugins". Find the line that says "plugins=(git)" and add "colors" after the "git".
+
+Should say "plugins=(git colors)".
+
 Install the theme:
 
 Using wget:
