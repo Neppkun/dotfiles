@@ -8,12 +8,10 @@
 
 + Polybar Preview
 <img src="./resources/previews/polybar.png"/>
-<hr>
 
 <h1 align="center">Setting up</h1>
 
 ### Neofetch
-<hr>
 
 Using wget:
 
@@ -22,10 +20,8 @@ Using wget:
 Using curl:
 
 `curl -o ~/.config/neofetch/config.conf https://raw.githubusercontent.com/Neppkun/dotfiles/main/neofetch.conf`
-<hr>
 
 ### OMZ Theme
-<hr>
 
 Install the "zsh" package from your favorite package manager.
 
@@ -60,10 +56,8 @@ Using curl:
 `curl -o ~/.oh-my-zsh/themes/neppkunTheme.zsh-theme https://raw.githubusercontent.com/Neppkun/dotfiles/main/omz_theme.zsh-theme`
 
 Replace `ZSH_THEME=""` line in `~/.zshrc` (Usually line 11) with `ZSH_THEME="neppkunTheme"`
-<hr>
 
 ### Polybar
-<hr>
 
 Install polybar from your favorite package manager.
 
