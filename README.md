@@ -47,3 +47,5 @@ Want to contribute? Make a pull request or join my [Discord Server](https://disc
 ## Credits
 
 Thanks to [R2Boyo25](https://github.com/R2Boyo25) for fixing my broken OMZ theme.
+
+Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky in line 109.
