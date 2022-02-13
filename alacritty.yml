@@ -1,0 +1,20 @@
+window:
+  decorations: full
+  opacity: 0.6
+  startup_mode: Windowed
+  dynamic_title: true
+  history: 10000
+
+colors:
+  primary:
+    background: '#181818'
+    foreground: '#eeeeee'
+    draw_bold_text_with_bright_colors: true
+    bright_foreground: '#ffffff'
+  
+  # These are normally """bright""" colors, they might look odd with some formatting.
+  normal:
+    green: '#00AA00'
+    yellow: '#FFFF55'
+    white: '#FFFFFF'
+    cyan: '#55FFFF'
