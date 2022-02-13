@@ -14,7 +14,7 @@
 
 + Polybar Preview
 <img src="./resources/previews/polybar.png"/>
-<hr><br>
+<hr>
 
 <h1 align="center">Setting up</h1><br>
 
@@ -31,7 +31,7 @@ Using wget:
 Using curl:
 
 `curl -o ~/.config/neofetch/config.conf https://raw.githubusercontent.com/Neppkun/dotfiles/main/neofetch.conf`
-<hr><br>
+<hr>
 
 ## pfetch
 <br>
@@ -56,7 +56,7 @@ I dont know how to make a magic command that'll automatically put the config whe
 Add contents of the "pfetch.conf" file to the VERY bottom of the file.
 
 Restart your shell or re-open your terminal for it to take effect.
-<hr><br>
+<hr>
 
 ## OMZ Theme
 <br>
@@ -98,7 +98,7 @@ Using curl:
 `curl -o ~/.oh-my-zsh/themes/neppkunTheme.zsh-theme https://raw.githubusercontent.com/Neppkun/dotfiles/main/omz_theme.zsh-theme`
 
 Replace `ZSH_THEME=""` line in `~/.zshrc` (Usually line 11) with `ZSH_THEME="neppkunTheme"`
-<hr><br>
+<hr>
 
 ## Alacritty
 <br>
@@ -123,7 +123,7 @@ Using curl:
 Using wget:
 
 `wget https://raw.githubusercontent.com/Neppkun/dotfiles/main/alacritty.yml -O $HOME/.config/alacritty/alacritty.yml`
-<hr><br>
+<hr>
 
 ## Polybar
 <br>
