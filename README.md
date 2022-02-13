@@ -106,7 +106,7 @@ Using curl:
 
 ### Make a shell script in the same directory where you saved the config and put this in:
 
-`pkill polybar && polybar --config=~/HDD/polybar-themes/polybar bar &`
+`pkill polybar && polybar --config=<path to polybar config> bar &`
 
 Run `sh <scriptFileName>.sh` from terminal to run polybar.
 
