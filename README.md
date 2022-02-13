@@ -169,6 +169,12 @@ Want to contribute? Make a pull request or join my [Discord Server](https://disc
 
 ## Credits
 
+<<<<<<< HEAD
 Thanks to [R2Boyo25](https://github.com/R2Boyo25) for finding a fix for my broken OMZ theme.
 
 Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky for the polybar config.
+=======
+Thanks to [R2Boyo25](https://github.com/R2Boyo25) for fixing my broken OMZ theme.
+
+Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky in line 109.
+>>>>>>> a15702585959ac3f2040703d87960bd2f329492d
