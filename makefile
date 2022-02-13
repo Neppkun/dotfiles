@@ -1,5 +1,5 @@
 list:
-	echo polybar pfetch omz_theme neofetch
+	@echo polybar pfetch omz_theme neofetch
 
 all: polybar pfetch omz_theme neofetch 
 
