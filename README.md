@@ -168,7 +168,6 @@ Add `@reboot sh <path to polybar script>` to the file and it ***SHOULD*** work.
 Want to contribute? Make a pull request or join my [Discord Server](https://discord.gg/pTmX8Nu99Y)
 
 <hr>
-<br>
 
 ## Credits
 
