@@ -161,7 +161,6 @@ You can close the terminal after running it, however I suggest making it automat
 
 Add `@reboot sh <path to polybar script>` to the file and it ***SHOULD*** work.
 <hr>
-<br>
 
 ## Contributions
 
