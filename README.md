@@ -20,7 +20,8 @@
 
 ## Neofetch
 
-Install the "neofetch" package from your favorite package manager.
+Install the "neofetch" package from your favorite package manager.<br>
+( Skip this step if you already have neofetch installed )
 
 ### Installing the config:
 
@@ -34,10 +35,11 @@ Using curl:
 <hr>
 
 ## pfetch
-<br>
+
 Install pfetch:<br>
 ( Skip this step if you already have pfetch installed )
-
+<br>
+<br>
 wget:
 
 `wget https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch -O /usr/bin/pfetch`
@@ -50,7 +52,8 @@ You can also install the "pfetch" package from AUR if you use Arch.<br><br>
 ### Installing the config:
 <br>
 I dont know how to make a magic command that'll automatically put the config where it's meant to, so you'll have to do this manually:
-
+<br>
+<br>
 `sudo nano ~/.bashrc` if you use Bash or `sudo nano ~/.zshrc` if you use ZSH.
 
 Add contents of the "pfetch.conf" file to the VERY bottom of the file.
@@ -148,9 +151,9 @@ Using curl:
 `pkill polybar && polybar --config=<path to polybar config> bar &`
 
 Run `sh <scriptFileName>.sh` from terminal to run polybar.
-
-You can close the terminal after running it, however I suggest making it automatically execute on boot.
 <br>
+<br>
+You can close the terminal after running it, however I suggest making it automatically execute on boot.
 <br>
 ### Using cron:
 
@@ -169,12 +172,6 @@ Want to contribute? Make a pull request or join my [Discord Server](https://disc
 
 ## Credits
 
-<<<<<<< HEAD
 Thanks to [R2Boyo25](https://github.com/R2Boyo25) for finding a fix for my broken OMZ theme.
 
-Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky for the polybar config.
-=======
-Thanks to [R2Boyo25](https://github.com/R2Boyo25) for fixing my broken OMZ theme.
-
-Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky in line 109.
->>>>>>> a15702585959ac3f2040703d87960bd2f329492d
+Thanks to [starmlerp](https://github.com/starmlerp) for pointing out my fucky wucky in the polybar config setup.
