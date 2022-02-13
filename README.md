@@ -16,7 +16,7 @@
 
 ## Installation
 
-All of the dotfiles can be automatically installed by running the following:
+Each of the dotfiles can be automatically installed by running the following:
 
 `$ make [DOTFILE]`
 
